@@ -1,0 +1,13 @@
+{
+  "name": "go-template-parser",
+  "version": "1.0.0",
+  "description": "Parse Go templates into an AST",
+  "main": "index.js",
+  "repository": "https://github.com/bouk/go-template-parser",
+  "author": "Bouke van der Bijl",
+  "license": "MIT",
+  "scripts": {
+    "build": "gopherjs build parse.go -m -o index.js",
+    "test": "node test.js"
+  }
+}
